@@ -1,0 +1,136 @@
+.our_story
+{
+    width: 90%;
+    height: 600px;
+    background-color: #fff;
+    margin-left: 70px;
+    margin-top:40px;
+}
+.our_story .left
+{
+    width: 50%;
+    height: 600px;
+    background-color: fff;
+    float: left;
+   
+}
+
+.left span
+{
+    color: #efba6c;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left:2px;
+    margin-top: 200px;
+ 
+
+}
+
+.left h3{
+    
+    font-size: 1.75rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 139px;
+    margin-left: 35px;
+   ;
+
+}
+.left p{
+    line-height: 1.7;
+    color: #364d59!important;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 35px;
+    margin-top: 36px;
+    position: absolute;
+}
+
+.our_story .right
+{
+ width: 50%;
+ height: 600px;
+ background-color: #fff;
+ float: left;
+ 
+}
+.right img
+{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+/******************************************SECTION_JOURNY**********************************************/
+.journy
+{
+    width: 90%;
+    height: 950px;
+    background-color: #fff;
+    margin: auto;
+}
+.item
+{
+    width: 29%;
+    height: 440px;
+    background-color: #fff;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.item .img
+ {
+    width: 100%;
+    height: 440px;
+    float: left;
+    transition: all 0.5s;
+    transform: scale(1.3);
+    position: relative;
+   
+}
+.item:hover .img
+{
+    transform: scale(1.2);
+}
+.btn
+{
+    width:75px;
+    height: 35px;
+    border-radius: 30px;
+    position: absolute;
+     background: rgb(239, 186, 108);;
+    left: 125px;
+    bottom: 60px;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.btn a
+{
+   text-decoration: none;
+   position: absolute;
+   left: 32px;
+   bottom: 10px;
+   color: rgb(255, 255, 255);
+}
+.item:hover .btn
+{
+    background-color: #f4ad2d;
+}
+ h2
+{
+    position: absolute;
+    font-size: 18px;   
+    font-weight: 500;
+    line-height: 1.2;
+     bottom: 16px;
+    line-height: 1.2;
+    left:110px;
+    color: #ffffff;
+}
+
